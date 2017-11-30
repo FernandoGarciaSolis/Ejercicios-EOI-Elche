@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>1-funciones</title>	
+<script>
+	function potencia() {
+	var y = document.getElementById("numero1").value;
+	var c = document.getElementById("numero2").value;
+	var x = Math.pow (y, c);
+	document.getElementById("demo").innerHTML = x
+	}
+</script>
+
+</head>
+
+<body>
+<p id="demo"></p>
+<input id="numero1">
+<input id="numero2">
+<button type="button" onclick="potencia()">Resultado</button>
+</body>
+</head>
+</html>

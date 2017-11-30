@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>2-funciones</title>	
+
+</head>
+
+<body>
+
+<p id="demo"></p>
+
+<script>
+function toCelsius() {
+
+var x = document.getElementById("grados").value
+    
+document.getElementById("demo").innerHTML = (x-32) + " " + "Celsius"
+}
+
+</script>
+<input id="grados">
+<button type="button" onclick="toCelsius()">Cambio</button>
+</body>
+</head>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>1-Cadena de texto</title>	
+
+
+</head>
+
+<body>
+
+<p id="demo">Yo amo a mi perro</p>
+
+<script>
+		function amoperrogato() {
+	
+	var x = "Yo amo a mi perro";
+	var y = "perro";
+	var z = "gato";
+	var nuevo = x.replace (y, z);
+	
+	document.getElementById("demo").innerHTML = nuevo
+	}
+	
+</script>
+<button type="button" onclick="amoperrogato()">Cambia</button>
+</body>
+</head>
+</html>

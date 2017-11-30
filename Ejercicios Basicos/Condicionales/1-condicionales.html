@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>1-Condicionales</title>	
+
+
+</head>
+
+<body>
+
+<p id="demo"></p>
+
+<script>
+	function Hora(){
+	var x = document.getElementById("hora").value;
+	
+	if(x < 12) {
+		document.getElementById("demo").innerHTML = "Buenos Dias"
+		} else {
+		if (x >12) {
+		document.getElementById("demo").innerHTML = "Buenas Tardes"
+		}
+		}
+		}
+</script>
+<input type="text" id="hora">
+<button type="button" onclick = "Hora()">Buenos....</button>
+
+</body>
+</head>
+</html>
