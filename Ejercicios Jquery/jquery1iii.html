@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Jquery 1iii</title>
+		<script src="https://code.jquery.com/jquery-1.12.4.min.js">
+	</script>
+	
+
+	<script type="text/javascript">
+		$(document).ready(function(){
+			var i = 0;
+			$('*').click(function(){ //tambien esta keydown y keyup
+			$(".intro").hide();
+			$("p").hide();
+			$("button").hide();
+		});
+	});
+	</script>
+</head>
+
+<body>
+
+<h1 class="intro">Hola mundo cruel</h1>
+<p class="intro">Asgard</p>
+<p>gobernado por Odín y su esposa Frigg y rodeado por una muralla incompleta...</p>
+<button type="button" class="*">Ocultar Todo</button>
+</html>
