@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>2-Estructurasdecontrol</title>	
+
+</head>
+
+<body>
+
+<p id="demo"></p>
+
+<script>
+
+	function Nota(){
+	var x = document.getElementById("nota").value;
+	if ( x < 5){
+	document.getElementById("demo").innerHTML = "SUPENSO"
+	} else 
+	if ( x < 7){
+	document.getElementById("demo").innerHTML = "Aprobado"
+	} else 
+	if ( x < 9){
+	document.getElementById("demo").innerHTML = "Notable"
+	} else 
+	if ( x < 10){
+	document.getElementById("demo").innerHTML = "Sobresaliente"
+	} else 
+	if ( x = 10){
+	document.getElementById("demo").innerHTML = "Matrícula de Honor"
+}
+}
+
+</script>
+<input id="nota">
+<button type="button" onclick="Nota()">ESTAS....</button>
+
+</body>
+</head>
+</html>

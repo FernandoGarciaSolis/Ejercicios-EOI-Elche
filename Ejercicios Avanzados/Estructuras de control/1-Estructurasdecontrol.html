@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>1-Estructurasdecontrol</title>	
+</head>
+<body>
+
+<p id="demo"></p>
+
+<script>
+
+	function Nota(){
+	var x= document.getElementById("nota").value
+	if ( x < 5){
+	document.getElementById("demo").innerHTML = "SUPENSO"
+	} else {
+	if (x > 5)
+	document.getElementById("demo").innerHTML = "Aprobado"
+	}
+}
+
+</script>
+<input id="nota">
+<button type="button" onclick="Nota()">ESTAS....</button>
+
+</body>
+</head>
+</html>
